@@ -10,4 +10,3 @@ def pow(a, b):
         The value of a ^ b
     """
     return a ** b
-
