@@ -6,5 +6,5 @@ def safe_function(fct, *args):
     try:
         return fct(*args)
     except BaseException as e:
-        print("Exception: {}".format, file=sys.stderr)
+        print("Exception: {}".format(e), file=sys.stderr)
         return None
